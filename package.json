@@ -1,0 +1,31 @@
+{
+  "name": "strong-native-ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/cjs/index.ts",
+  "module": "dist/esm/index.ts",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^24.1.0",
+    "@rollup/plugin-node-resolve": "^15.0.2",
+    "@rollup/plugin-typescript": "^11.1.0",
+    "@types/react": "^18.2.6",
+    "@types/react-native": "^0.72.0",
+    "react": "^18.2.0",
+    "react-native": "^0.71.8",
+    "rollup": "^3.21.6",
+    "rollup-plugin-dts": "^5.3.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "tslib": "^2.5.0",
+    "typescript": "^5.0.4"
+  }
+}
