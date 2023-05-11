@@ -1,5 +1,5 @@
 {
-  "name": "@poc-ui-strong-/native",
+  "name": "@poc-ui-strong/native",
   "version": "1.0.0",
   "description": "",
   "main": "dist/cjs/index.ts",
